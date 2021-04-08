@@ -39,6 +39,7 @@ struct HomeScreen: View {
             }
             .navigationBarTitle("SwiftUI", displayMode: .inline) /// this line give crashed constraints into console if target < iOS14
             
+            /// for iOS14
 //            .navigationBarTitleDisplayMode(.inline)
 //            .toolbar(content: {
 //                ToolbarItem(placement: .principal, content: {
@@ -50,7 +51,6 @@ struct HomeScreen: View {
     
 }
 
-@available(iOS 14.0, *)
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeScreen()
