@@ -13,20 +13,23 @@ struct ProductCell: View {
     let cellSize: CGSize
     
     var body: some View {
-        VStack {
+        VStack(spacing: 4) {
             Image(object.image)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .cornerRadius(5)
                 .frame(width: cellSize.width, height: cellSize.height)
-                
                 .contextMenu(menuItems: {
                     Text("Menu Item 1")
                     Text("Menu Item 2")
                     Text("Menu Item 3")
                 })
+            
+            Text(object.name)
+                .font(.system(size: 14))
+                .foregroundColor(Color(Palette.black_60))
         }
-        .padding(.leading, 15)
+        .padding([.leading, .bottom], 15)
     }
 }
 

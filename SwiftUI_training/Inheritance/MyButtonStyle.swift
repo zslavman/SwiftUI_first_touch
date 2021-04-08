@@ -11,7 +11,7 @@ struct MyButtonStyle: ViewModifier {
     func body(content: Content) -> some View {
         content
             .padding()
-            .background(Color(Palette.purple.medium))
+            .background(Color(Palette.purple))
             .foregroundColor(Color.white)
             .font(.title)
             .cornerRadius(10)

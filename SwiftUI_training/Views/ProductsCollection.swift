@@ -27,7 +27,7 @@ struct ProductsCollection: View {
                     }
                 }
             }
-            .frame(height: 180)
+            .frame(height: cellSize.height + 30)
         }
         .padding(.top)
     }

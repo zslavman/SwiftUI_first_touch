@@ -19,7 +19,7 @@ struct ContentView: View {
         VStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 25, content: {
             ZStack(alignment: /*@START_MENU_TOKEN@*/Alignment(horizontal: .center, vertical: .center)/*@END_MENU_TOKEN@*/, content: {
                 RoundedRectangle(cornerRadius: 10)
-                    .fill(Color(Palette.slate.medium))
+                    .fill(Color(Palette.slate))
                     .padding()
                 Text("Placeholder text")
             })

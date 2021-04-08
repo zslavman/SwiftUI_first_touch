@@ -96,18 +96,17 @@
 			path = Depricated;
 			sourceTree = "<group>";
 		};
-		EF9816C3261B1BDD006D175E /* Views */ = {
+		EF9816C3261B1BDD006D175E /* Screens */ = {
 			isa = PBXGroup;
 			children = (
 				EF47005A2619D15200C95BE0 /* HomeScreen.swift */,
 				EFB647B2261B709D00703665 /* DetailsScreen.swift */,
 				EF839E5C26190AE10013D9BB /* UsersProfileScreen.swift */,
-				EF9816C4261B1C13006D175E /* Slave Views */,
 			);
-			path = Views;
+			path = Screens;
 			sourceTree = "<group>";
 		};
-		EF9816C4261B1C13006D175E /* Slave Views */ = {
+		EF9816C4261B1C13006D175E /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				EFA2A6AA261A2B4A004B833D /* ProductsCollection.swift */,
@@ -116,7 +115,7 @@
 				EF149373261F2F2D0044FC20 /* HomeHeaderView.swift */,
 				EF149376261F3A5C0044FC20 /* TextAttributed.swift */,
 			);
-			path = "Slave Views";
+			path = Views;
 			sourceTree = "<group>";
 		};
 		EFC5DEEE2619B64200743C2A /* Models */ = {
@@ -173,8 +172,9 @@
 				EFEB67892610A74E00AC9767 /* SceneDelegate.swift */,
 				EF6B09DF2610FC9500236228 /* Services */,
 				EFE3A5A8261B1E3C00ACB5BC /* Inheritance */,
+				EF9816C3261B1BDD006D175E /* Screens */,
 				EFC5DEEE2619B64200743C2A /* Models */,
-				EF9816C3261B1BDD006D175E /* Views */,
+				EF9816C4261B1C13006D175E /* Views */,
 				EFC5DEF92619BCE700743C2A /* Supporting files */,
 				EFEB678F2610A75000AC9767 /* Preview Content */,
 				EF9816C2261B1B6E006D175E /* Depricated */,

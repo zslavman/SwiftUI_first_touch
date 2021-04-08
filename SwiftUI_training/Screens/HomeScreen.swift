@@ -27,7 +27,8 @@ struct HomeScreen: View {
                 NavigationLink(
                     destination: UsersProfileScreen(),
                     label: {
-                        Text("Руководство Apple")
+                        Text("Руководящий состав Apple")
+                            .bold()
                     }).frame(height: 50)
 
                 ForEach(self.categories.keys.sorted(), id: \.self) {
