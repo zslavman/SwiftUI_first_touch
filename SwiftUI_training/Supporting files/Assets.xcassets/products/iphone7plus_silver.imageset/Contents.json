@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "iphone7plus_silver.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

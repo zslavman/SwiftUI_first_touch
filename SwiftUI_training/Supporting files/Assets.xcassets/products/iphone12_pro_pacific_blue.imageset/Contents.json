@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "iphone12_pro_pacific_blue.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

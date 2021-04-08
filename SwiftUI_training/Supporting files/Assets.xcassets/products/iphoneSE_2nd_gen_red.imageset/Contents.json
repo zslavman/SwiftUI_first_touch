@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "iphoneSE_2nd_gen_red.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

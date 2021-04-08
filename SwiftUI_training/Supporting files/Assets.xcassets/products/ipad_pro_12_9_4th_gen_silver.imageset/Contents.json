@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ipad_pro_12_9_4th_gen_silver.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ipad_mini_5th_gen_silver.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
